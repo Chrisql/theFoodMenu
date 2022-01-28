@@ -24,11 +24,11 @@ pDrinkItem.innerText = "Your food item: Sprite";
 }
 else if(theDrinks == 2){//if 2 is picked then logs pepsi into the console
 console.log(theMenu.drink_items[1]);
-pDrinkItem.innetText = "Your food item: Pepsi";
+pDrinkItem.innerText = "Your food item: Pepsi";
 }
 else if(theDrinks == 3){//if 3 is picked then logs coca-cola into the console
 console.log(theMenu.drink_items[2]);
-pDrinkItem.innerText = "Your food item: <b>Coca-Cola</b>";
+pDrinkItem.innerText = "Your food item: Coca-Cola";
 }
 
 if(theFood == 1){
